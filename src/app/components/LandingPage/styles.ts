@@ -3,32 +3,51 @@ import styled from 'styled-components'
 
 export const LandingPage = styled.section`
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
   height: 100vh;
-  background-color: #44281a;
-  background-image: url('/background.jpg');
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(244, 118, 171);
+  background: linear-gradient(
+    90deg,
+    rgba(244, 118, 171, 1) 0%,
+    rgba(212, 167, 199, 1) 47%,
+    rgba(171, 213, 235, 1) 100%
+  );
+  z-index: -2;
+`
+
+export const Identification = styled.section`
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  h2 {
+    font-size: 7rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+  }
 `
 
 export const Profile = styled.section`
-  background-image: url('/profile2.jpg');
-  width: 400px;
+  img {
+    object-fit: fill;
+    width: 400px;
+    height: auto;
+  }
 
-  &:after {
-    content: '';
-    border-top-left-radius: 50% 100%;
-    border-top-right-radius: 50% 100%;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-    width: 100%;
-    background-color: #0f0f10;
-    height: 85%;
+  // &:after {
+  //   content: '';
+  //   left: -100px;
+  //   border-top-left-radius: 50% 100%;
+  //   border-top-right-radius: 50% 100%;
+  //   position: absolute;
+  //   bottom: 0;
+  //   width: 40%;
+  //   z-index: -1;
+  //   background-color: rgba(255, 255, 255, 0.1);
+  //   height: 45%;
   }
 `
