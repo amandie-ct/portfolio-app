@@ -38,16 +38,16 @@ export const Profile = styled.section`
     height: auto;
   }
 
-  // &:after {
-  //   content: '';
-  //   left: -100px;
-  //   border-top-left-radius: 50% 100%;
-  //   border-top-right-radius: 50% 100%;
-  //   position: absolute;
-  //   bottom: 0;
-  //   width: 40%;
-  //   z-index: -1;
-  //   background-color: rgba(255, 255, 255, 0.1);
-  //   height: 45%;
+  &:after {
+    content: '';
+    left: -100px;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -1;
+    background-color: rgba(247, 119, 15, 0.1);
+    height: 45%;
   }
 `
