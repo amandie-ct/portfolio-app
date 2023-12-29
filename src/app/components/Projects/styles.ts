@@ -6,6 +6,7 @@ export const Container = styled.section`
   flex-direction: column;
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.font.sizes.large};
+  width: 100%;
 `
 export const ContainerTitle = styled.h1`
   margin-bottom: ${({ theme }) => theme.spacings.xlarge};
@@ -13,13 +14,15 @@ export const ContainerTitle = styled.h1`
 
 export const ProjectsContainer = styled.section`
   display: flex;
-  margin: ${({ theme }) => theme.spacings.xlarge};
+  flex-wrap: wrap;
+  margin-bottom: ${({ theme }) => theme.spacings.xlarge};
 `
 
 export const ProjectCard = styled.section`
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 30%;
+  margin-right: ${({ theme }) => theme.spacings.medium};
 
   p {
     text-align: justify;
