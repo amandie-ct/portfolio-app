@@ -2,11 +2,13 @@
 import styled from 'styled-components'
 
 export const Menu = styled.section`
-  background-color: rgba(220, 108, 58, 0.8);
-  position: relative;
+  top: 0;
+  background: rgba(207, 192, 190, 0.7);
+  width: 100%;
   display: flex;
   padding: 1.5rem 2rem;
   box-shadow: 2px 2px 10px rgba(68, 68, 68, 0.3);
+  position: absolute;
 `
 
 export const Links = styled.section`
@@ -22,6 +24,7 @@ export const Links = styled.section`
 
     &:hover {
       color: rgba(255, 255, 255, 0.9);
+      cursor: pointer;
     }
   }
 `

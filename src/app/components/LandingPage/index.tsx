@@ -1,15 +1,21 @@
+import DownloadCv from '../DownloadCV'
+import Menu from '../Menu'
 import * as Styled from './styles'
 
 const LandingPage = () => {
   return (
     <Styled.LandingPage>
-      <Styled.Identification>
-        <h2>Desenvolvedora frontend</h2>
-        <h1>Amanda Carvalho</h1>
-      </Styled.Identification>
-      <Styled.Profile>
-        <img src="profile3.png" />
-      </Styled.Profile>
+      <Menu />
+      <Styled.IdentificationContainer>
+        <Styled.Identification>
+          <h2>Desenvolvedora frontend</h2>
+          <h1>Amanda Carvalho</h1>
+          <DownloadCv />
+        </Styled.Identification>
+        <Styled.Profile>
+          <img src="profile3.png" />
+        </Styled.Profile>
+      </Styled.IdentificationContainer>
     </Styled.LandingPage>
   )
 }

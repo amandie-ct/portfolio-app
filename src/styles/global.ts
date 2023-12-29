@@ -16,10 +16,19 @@ html, body, #__next {
     height: 100%;
 }
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+::-webkit-scrollbar {
+  width: 10px;  
 }
 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #82a9bf;
+  border-radius: 6px;
+}
 `
 
 export default GlobalStyles
