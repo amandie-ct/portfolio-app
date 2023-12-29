@@ -4,6 +4,7 @@ import styled from 'styled-components'
 export const Menu = styled.section`
   top: 0;
   position: fixed;
+  z-index: 99;
   background: ${({ theme }) => theme.colors.grayish_purple};
   width: 100%;
   display: flex;
@@ -23,13 +24,18 @@ export const Links = styled.section`
     text-transform: uppercase;
     padding: 0 2rem;
     font-weight: 200;
-    / &:hover {
-      color: rgba(255, 255, 255, 0.9);
-      cursor: pointer;
+
+    &:link {
+      color: ${({ theme }) => theme.colors.faded_white2};
     }
 
     &:visited {
       color: ${({ theme }) => theme.colors.faded_white2};
+    }
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.9);
+      cursor: pointer;
     }
   }
 `
