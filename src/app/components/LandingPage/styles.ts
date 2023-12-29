@@ -8,13 +8,6 @@ export const LandingPage = styled.section`
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background: rgb(244, 118, 171);
-  background: linear-gradient(
-    90deg,
-    rgba(244, 118, 171, 1) 0%,
-    rgba(212, 167, 199, 1) 47%,
-    rgba(171, 213, 235, 1) 100%
-  );
 `
 
 export const Identification = styled.section`

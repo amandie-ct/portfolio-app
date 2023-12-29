@@ -1,8 +1,8 @@
-import { Playfair_Display } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import { Providers } from './providers'
 import StyledComponentsRegistry from '@/lib/registry'
 
-const playfairDisplay = Playfair_Display({ weight: '500', subsets: ['latin'] })
+const poppins = Poppins({ weight: '400', subsets: ['latin'] })
 
 export default function RootLayout({
   children
@@ -11,7 +11,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={playfairDisplay.className}>
+      <body className={poppins.className}>
         <StyledComponentsRegistry>
           <Providers>{children}</Providers>
         </StyledComponentsRegistry>
