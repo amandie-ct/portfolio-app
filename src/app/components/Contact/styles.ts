@@ -10,8 +10,11 @@ export const Container = styled.section`
   width: 100%;
   height: 50vh;
 
-  color: ${({ theme }) => theme.colors.white};
-  font-size: ${({ theme }) => theme.font.sizes.large};
+  h1 {
+    color: ${({ theme }) => theme.colors.faded_white1};
+    font-size: ${({ theme }) => theme.font.sizes.xlarge};
+    text-transform: uppercase;
+  }
 `
 
 export const ContactsList = styled.section`

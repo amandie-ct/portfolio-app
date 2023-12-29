@@ -16,12 +16,14 @@ export const Identification = styled.section`
   h1 {
     font-size: 8rem;
     color: ${({ theme }) => theme.colors.white};
+    font-weight: 200;
   }
   h2 {
     font-size: 8rem;
+    font-weight: 700;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
   }
 `
 

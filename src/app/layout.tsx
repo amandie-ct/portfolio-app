@@ -5,7 +5,10 @@ import StyledComponentsRegistry from '@/lib/registry'
 import { ThemeProvider } from 'styled-components'
 import Theme from '@/styles/theme'
 
-const poppins = Poppins({ weight: '400', subsets: ['latin'] })
+const poppins = Poppins({
+  weight: ['200', '400', '500', '600', '800'],
+  subsets: ['latin']
+})
 
 export default function RootLayout({
   children

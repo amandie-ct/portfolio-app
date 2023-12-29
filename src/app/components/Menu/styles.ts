@@ -22,8 +22,8 @@ export const Links = styled.section`
     text-decoration: none;
     text-transform: uppercase;
     padding: 0 2rem;
-
-    &:hover {
+    font-weight: 200;
+    / &:hover {
       color: rgba(255, 255, 255, 0.9);
       cursor: pointer;
     }

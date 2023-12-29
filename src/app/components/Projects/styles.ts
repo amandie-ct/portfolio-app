@@ -11,6 +11,8 @@ export const Container = styled.section`
 `
 export const ContainerTitle = styled.h1`
   margin-bottom: ${({ theme }) => theme.spacings.xlarge};
+  text-transform: uppercase;
+  color: ${({ theme }) => theme.colors.faded_white1};
 `
 
 export const ProjectsContainer = styled.section`
@@ -98,10 +100,10 @@ export const ProjectImg = styled.img`
 `
 
 export const Title = styled.h1`
-  color: ${({ theme }) => theme.colors.faded_white2};
+  color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.font.sizes.large};
   margin-top: ${({ theme }) => theme.spacings.xsmall};
-  text-transform: uppercase;
+  font-weight: 200;
 `
 
 export const TagsSection = styled.section`
