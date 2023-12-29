@@ -1,8 +1,7 @@
-import { Ubuntu, Playfair_Display } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google'
 import { Providers } from './providers'
 import StyledComponentsRegistry from '@/lib/registry'
 
-const ubuntu = Ubuntu({ weight: '500', subsets: ['latin'] })
 const playfairDisplay = Playfair_Display({ weight: '500', subsets: ['latin'] })
 
 export default function RootLayout({
