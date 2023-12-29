@@ -15,7 +15,7 @@ export const Identification = styled.section`
   flex-direction: column;
   h1 {
     font-size: 8rem;
-    color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.black};
     font-weight: 200;
     margin-top: -1.8rem;
   }

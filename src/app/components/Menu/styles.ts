@@ -18,12 +18,12 @@ export const Links = styled.section`
   justify-content: left;
   width: 100%;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   a {
     text-decoration: none;
     text-transform: uppercase;
     padding: 0 2rem;
-    font-weight: 200;
+    font-weight: 600;
 
     &:link {
       color: ${({ theme }) => theme.colors.faded_white2};
