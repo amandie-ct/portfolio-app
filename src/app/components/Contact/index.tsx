@@ -8,18 +8,26 @@ const Contact = () => {
     <Styled.Container>
       <Styled.ContactsList>
         <a href="#">
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon icon={faEnvelope} size={'2xs'} />
           <p>carvalhotp.amanda@gmail.com</p>
         </a>
         <a>
           <FontAwesomeIcon icon={faPhone} />
           <p>(84) 99698-2723</p>
         </a>
-        <a href="https://www.linkedin.com/in/carvalhot-amanda" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/carvalhot-amanda"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin} />
           <p>@carvalhot-amanda</p>
         </a>
-        <a href="https://github.com/amandie-ct" target="_blank">
+        <a
+          href="https://github.com/amandie-ct"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} />
           <p>@amandie-ct</p>
         </a>
