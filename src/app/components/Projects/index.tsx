@@ -1,4 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as Styled from './styles'
+import { faCode, faEye } from '@fortawesome/free-solid-svg-icons'
 
 const Projects = () => {
   const technologies = [
@@ -14,7 +16,25 @@ const Projects = () => {
       <Styled.ContainerTitle>Projetos</Styled.ContainerTitle>
       <Styled.ProjectsContainer>
         <Styled.ProjectCard>
-          <Styled.ProjectImg src="pokedex.png" />
+          <Styled.ProjectImgContainer>
+            <Styled.ProjectImgOverlay>
+              <a
+                href="https://github.com/amandie-ct/next-pokedex"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Styled.IconStyles icon={faEye} />
+              </a>
+              <a
+                href="pokedex-beta-sable.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Styled.IconStyles icon={faCode} />
+              </a>
+            </Styled.ProjectImgOverlay>
+            <Styled.ProjectImg src="pokedex.png" />
+          </Styled.ProjectImgContainer>
           <Styled.Title>Pokedex</Styled.Title>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
@@ -40,7 +60,25 @@ const Projects = () => {
         </Styled.ProjectCard>
 
         <Styled.ProjectCard>
-          <Styled.ProjectImg src="pokedex.png" />
+          <Styled.ProjectImgContainer>
+            <Styled.ProjectImgOverlay>
+              <a
+                href="https://github.com/amandie-ct/next-pokedex"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Styled.IconStyles icon={faEye} />
+              </a>
+              <a
+                href="pokedex-beta-sable.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Styled.IconStyles icon={faCode} />
+              </a>
+            </Styled.ProjectImgOverlay>
+            <Styled.ProjectImg src="pokedex.png" />
+          </Styled.ProjectImgContainer>
           <Styled.Title>Pokedex</Styled.Title>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
@@ -66,7 +104,25 @@ const Projects = () => {
         </Styled.ProjectCard>
 
         <Styled.ProjectCard>
-          <Styled.ProjectImg src="pokedex.png" />
+          <Styled.ProjectImgContainer>
+            <Styled.ProjectImgOverlay>
+              <a
+                href="https://github.com/amandie-ct/next-pokedex"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Styled.IconStyles icon={faEye} />
+              </a>
+              <a
+                href="pokedex-beta-sable.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Styled.IconStyles icon={faCode} />
+              </a>
+            </Styled.ProjectImgOverlay>
+            <Styled.ProjectImg src="pokedex.png" />
+          </Styled.ProjectImgContainer>
           <Styled.Title>Pokedex</Styled.Title>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque

@@ -1,4 +1,5 @@
 'use client'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styled-components'
 
 export const Container = styled.section`
@@ -31,13 +32,69 @@ export const ProjectCard = styled.section`
   }
 `
 
-export const ProjectImg = styled.img`
-  border-radius: ${({ theme }) => theme.border.regular_radius};
+export const ProjectImgContainer = styled.section`
   min-width: 500px;
   max-width: 100%;
-  height: auto;
+  height: fit-content;
   margin: 0 auto;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+`
+
+export const ProjectImgOverlay = styled.section`
+  border-radius: ${({ theme }) => theme.border.regular_radius};
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(31, 24, 39, 0.5);
+  display: flex;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.white};
+
+    &:link {
+      color: ${({ theme }) => theme.colors.faded_white2};
+    }
+
+    &:visited {
+      color: ${({ theme }) => theme.colors.faded_white1};
+    }
+
+    &:hover {
+      color: ${({ theme }) => theme.colors.white};
+    }
+  }
+`
+
+export const IconStyles = styled(FontAwesomeIcon)`
+  font-size: ${({ theme }) => theme.font.sizes.huge};
+  color: ${({ theme }) => theme.colors.faded_white};
+  margin-right: 30px;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.faded_white};
+  }
+`
+
+export const ProjectImg = styled.img`
+  border-radius: ${({ theme }) => theme.border.regular_radius};
+  height: 100%;
+  width: 100%;
+
+  }
 `
 
 export const Title = styled.h1`
