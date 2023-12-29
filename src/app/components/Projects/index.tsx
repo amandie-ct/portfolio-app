@@ -25,7 +25,7 @@ const Projects = () => {
                 <Styled.IconStyles icon={faEye} />
               </a>
               <a
-                href="pokedex-beta-sable.vercel.app"
+                href="https://pokedex-beta-sable.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -62,14 +62,14 @@ const Projects = () => {
           <Styled.ProjectImgContainer>
             <Styled.ProjectImgOverlay>
               <a
-                href="https://github.com/amandie-ct/next-pokedex"
+                href="https://pokedex-beta-sable.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Styled.IconStyles icon={faEye} />
               </a>
               <a
-                href="pokedex-beta-sable.vercel.app"
+                href="https://github.com/amandie-ct/next-pokedex"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -106,14 +106,14 @@ const Projects = () => {
           <Styled.ProjectImgContainer>
             <Styled.ProjectImgOverlay>
               <a
-                href="https://github.com/amandie-ct/next-pokedex"
+                href="https://pokedex-beta-sable.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Styled.IconStyles icon={faEye} />
               </a>
               <a
-                href="pokedex-beta-sable.vercel.app"
+                href="https://github.com/amandie-ct/next-pokedex"
                 target="_blank"
                 rel="noreferrer"
               >
