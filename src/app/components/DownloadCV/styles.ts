@@ -1,7 +1,7 @@
 'use client'
 import styled from 'styled-components'
 
-export const DownloadButton = styled.div`
+export const DownloadButton = styled.button`
   border: none;
   border-radius: ${({ theme }) => theme.border.small_radius};
   box-shadow: ${({ theme }) => theme.shadow.box_shadow};
