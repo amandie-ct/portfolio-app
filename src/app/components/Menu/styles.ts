@@ -3,17 +3,12 @@ import styled from 'styled-components'
 
 export const Menu = styled.section`
   top: 0;
-  background: rgb(130, 169, 191);
-  background: linear-gradient(
-    90deg,
-    rgba(130, 169, 191, 0.9) 0%,
-    rgba(180, 203, 216, 0.2) 100%
-  );
+  position: fixed;
+  background: ${({ theme }) => theme.colors.grayish_purple};
   width: 100%;
   display: flex;
   padding: 1.5rem 2rem;
   box-shadow: ${({ theme }) => theme.shadow.box_shadow};
-  position: absolute;
 `
 
 export const Links = styled.section`
@@ -24,12 +19,17 @@ export const Links = styled.section`
   color: rgba(255, 255, 255, 0.6);
   font-size: 2.5rem;
   a {
+    text-decoration: none;
     text-transform: uppercase;
     padding: 0 2rem;
 
     &:hover {
       color: rgba(255, 255, 255, 0.9);
       cursor: pointer;
+    }
+
+    &:visited {
+      color: ${({ theme }) => theme.colors.faded_white2};
     }
   }
 `

@@ -8,7 +8,7 @@ export const Container = styled.section`
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
 
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.font.sizes.large};

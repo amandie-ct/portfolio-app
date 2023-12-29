@@ -29,7 +29,8 @@ const Theme: any = {
     faded_white2: 'rgba(255, 255, 255, 0.6)',
     faded_white3: 'rgba(255, 255, 255, 0.4)',
     grayish_blue: 'rgb(130, 169, 191)',
-    grayish_pink: 'rgb(219,107,154)'
+    grayish_pink: 'rgb(219,107,154)',
+    grayish_purple: 'rgba(158, 135, 183, 0.7)'
   },
   spacings: {
     xxsmall: '0.8rem',

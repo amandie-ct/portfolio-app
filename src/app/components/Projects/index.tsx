@@ -10,7 +10,7 @@ const Projects = () => {
     'Styled-Components'
   ]
   return (
-    <Styled.Container>
+    <Styled.Container id="projects">
       <Styled.ContainerTitle>Projetos</Styled.ContainerTitle>
       <Styled.ProjectsContainer>
         <Styled.ProjectCard>

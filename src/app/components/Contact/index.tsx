@@ -6,7 +6,7 @@ const Contact = () => {
   const phoneNumber: number = 5584996982723
 
   return (
-    <Styled.Container>
+    <Styled.Container id="contact">
       <h1>Contato</h1>
       <Styled.ContactsList>
         <a
