@@ -87,7 +87,7 @@ export const IconStyles = styled(FontAwesomeIcon)`
   margin-right: 30px;
 
   &:hover {
-    color: ${({ theme }) => theme.colors.faded_white};
+    color: ${({ theme }) => theme.colors.faded_white2};
   }
 `
 
