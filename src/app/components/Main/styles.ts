@@ -5,6 +5,7 @@ export const Main = styled.main`
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 0 ${({ theme }) => theme.spacings.xxlarge};
 
   background: rgb(244, 118, 171);
   background: linear-gradient(
