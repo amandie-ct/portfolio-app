@@ -30,7 +30,8 @@ const Theme = {
     faded_white3: 'rgba(255, 255, 255, 0.4)',
     grayish_blue: 'rgb(130, 169, 191)',
     grayish_pink: 'rgb(219,107,154)',
-    grayish_purple: 'rgba(158, 135, 183, 0.7)'
+    grayish_purple: 'rgba(158, 135, 183, 0.7)',
+    black: 'rgb(38, 38, 38)'
   },
   spacings: {
     xxsmall: '0.8rem',

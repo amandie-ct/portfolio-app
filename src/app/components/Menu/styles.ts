@@ -5,7 +5,7 @@ export const Menu = styled.section`
   top: 0;
   position: fixed;
   z-index: 99;
-  background: ${({ theme }) => theme.colors.grayish_purple};
+  background: ${({ theme }) => theme.colors.black};
   width: 100%;
   display: flex;
   padding: 1.5rem 2rem;

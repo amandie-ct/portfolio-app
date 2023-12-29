@@ -44,7 +44,7 @@ export const ContactsList = styled.section`
     p {
       font-size: ${({ theme }) => theme.font.sizes.small};
       padding: ${({ theme }) => theme.spacings.xsmall} 0;
-      color: ${({ theme }) => theme.colors.faded_white1};
+      color: ${({ theme }) => theme.colors.black};
 
     }
 

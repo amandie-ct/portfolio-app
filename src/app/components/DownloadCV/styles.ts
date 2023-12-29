@@ -5,7 +5,7 @@ export const DownloadButton = styled.button`
   border: none;
   border-radius: ${({ theme }) => theme.border.small_radius};
   box-shadow: ${({ theme }) => theme.shadow.box_shadow};
-  background: ${({ theme }) => theme.colors.grayish_purple};
+  background: ${({ theme }) => theme.colors.black};
   padding: 2rem 4rem;
   font-size: 2rem;
   width: fit-content;

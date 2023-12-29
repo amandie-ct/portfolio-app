@@ -100,10 +100,10 @@ export const ProjectImg = styled.img`
 `
 
 export const Title = styled.h1`
-  color: ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.black};
   font-size: ${({ theme }) => theme.font.sizes.large};
   margin-top: ${({ theme }) => theme.spacings.xsmall};
-  font-weight: 200;
+  font-weight: 400;
 `
 
 export const TagsSection = styled.section`
