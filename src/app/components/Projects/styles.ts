@@ -83,7 +83,7 @@ export const ProjectImgOverlay = styled.section`
 
 export const IconStyles = styled(FontAwesomeIcon)`
   font-size: ${({ theme }) => theme.font.sizes.huge};
-  color: ${({ theme }) => theme.colors.faded_white};
+  color: ${({ theme }) => theme.colors.faded_white3};
   margin-right: 30px;
 
   &:hover {
