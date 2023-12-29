@@ -1,6 +1,6 @@
 'use client'
 
-const Theme: any = {
+const Theme = {
   border: {
     small_radius: '0.5rem',
     regular_radius: '0.8rem'

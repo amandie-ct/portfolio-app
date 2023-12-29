@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as Styled from './styles'
 import { faCode, faEye } from '@fortawesome/free-solid-svg-icons'
 
