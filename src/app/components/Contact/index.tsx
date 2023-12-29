@@ -6,13 +6,14 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Contact = () => {
   return (
     <Styled.Container>
+      <h1>Contato</h1>
       <Styled.ContactsList>
         <a href="#">
-          <FontAwesomeIcon icon={faEnvelope} size={'2xs'} />
+          <Styled.StyledFontAwesomeIcon icon={faEnvelope} size={'2xs'} />
           <p>carvalhotp.amanda@gmail.com</p>
         </a>
         <a>
-          <FontAwesomeIcon icon={faPhone} />
+          <Styled.StyledFontAwesomeIcon icon={faPhone} />
           <p>(84) 99698-2723</p>
         </a>
         <a
@@ -20,7 +21,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FontAwesomeIcon icon={faLinkedin} />
+          <Styled.StyledFontAwesomeIcon icon={faLinkedin} />
           <p>@carvalhot-amanda</p>
         </a>
         <a
@@ -28,7 +29,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} />
+          <Styled.StyledFontAwesomeIcon icon={faGithub} />
           <p>@amandie-ct</p>
         </a>
       </Styled.ContactsList>
