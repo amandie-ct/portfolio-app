@@ -15,7 +15,7 @@ export const Identification = styled.section`
   flex-direction: column;
   h1 {
     font-size: 8rem;
-    color: rgba(255, 255, 255, 1);
+    color: ${({ theme }) => theme.colors.white};
   }
   h2 {
     font-size: 8rem;

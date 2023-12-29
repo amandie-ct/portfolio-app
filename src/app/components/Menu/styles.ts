@@ -12,7 +12,7 @@ export const Menu = styled.section`
   width: 100%;
   display: flex;
   padding: 1.5rem 2rem;
-  box-shadow: 2px 2px 6px rgba(68, 68, 68, 0.2);
+  box-shadow: ${({ theme }) => theme.shadow.box_shadow};
   position: absolute;
 `
 

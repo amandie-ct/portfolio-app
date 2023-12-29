@@ -2,7 +2,11 @@
 
 const Theme: any = {
   border: {
-    radius: '0.5rem'
+    small_radius: '0.5rem',
+    regular_radius: '0.8rem'
+  },
+  shadow: {
+    box_shadow: '2px 2px 6px rgba(68, 68, 68, 0.2)'
   },
   font: {
     light: 300,
@@ -21,7 +25,11 @@ const Theme: any = {
   },
   colors: {
     white: 'rgb(255, 255, 255)',
-    faded_white: 'rgba(255, 255, 255, 0.6)'
+    faded_white1: 'rgba(255, 255, 255, 0.8)',
+    faded_white2: 'rgba(255, 255, 255, 0.6)',
+    faded_white3: 'rgba(255, 255, 255, 0.4)',
+    grayish_blue: 'rgb(130, 169, 191)',
+    grayish_pink: 'rgb(219,107,154)'
   },
   spacings: {
     xxsmall: '0.8rem',
@@ -29,8 +37,8 @@ const Theme: any = {
     small: '2.4rem',
     medium: '3.2rem',
     large: '4.0rem',
-    xlarge: '4.8rem',
-    xxlarge: '5.6rem'
+    xlarge: '5rem',
+    xxlarge: '6rem'
   },
   layers: {
     base: 10,

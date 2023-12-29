@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 export const DownloadButton = styled.div`
   border: none;
-  border-radius: 10px;
-  box-shadow: 2px 2px 6px rgba(68, 68, 68, 0.2);
+  border-radius: ${({ theme }) => theme.border.small_radius};
+  box-shadow: ${({ theme }) => theme.shadow.box_shadow};
   background: rgb(130, 169, 191);
   background: linear-gradient(
     90deg,
