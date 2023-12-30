@@ -8,6 +8,7 @@ export const Container = styled.section`
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.font.sizes.large};
   width: 100%;
+  min-height: 100vh;
 `
 export const ContainerTitle = styled.h1`
   margin-bottom: ${({ theme }) => theme.spacings.xlarge};
@@ -35,7 +36,6 @@ export const ProjectCard = styled.section`
 `
 
 export const ProjectImgContainer = styled.section`
-  min-width: 500px;
   max-width: 100%;
   height: fit-content;
   margin: 0 auto;

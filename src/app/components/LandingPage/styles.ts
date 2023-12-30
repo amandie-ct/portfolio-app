@@ -7,7 +7,7 @@ export const LandingPage = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
 `
 
 export const Identification = styled.section`
