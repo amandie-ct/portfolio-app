@@ -24,7 +24,9 @@ const Theme = {
     }
   },
   colors: {
-    white: 'rgb(255, 255, 255)',
+    white: '#FFFFFF',
+    golden: '#d8a47a',
+    dark_gray: '#181717',
     faded_white1: 'rgba(255, 255, 255, 0.8)',
     faded_white2: 'rgba(255, 255, 255, 0.6)',
     faded_white3: 'rgba(255, 255, 255, 0.4)',

@@ -6,8 +6,9 @@ const Menu = () => {
   return (
     <Styled.Menu>
       <Styled.Links>
-        <a href="#contact">Contato&nbsp;</a>|<a>Sobre&nbsp;</a>|
-        <a href="#projects">Projetos&nbsp;</a>|
+        <a href="#contact">Contato&nbsp;</a>
+        <a>Sobre&nbsp;</a>
+        <a href="#projects">Projetos&nbsp;</a>
         <a href={pdfLink} target="_blank" rel="noreferrer">
           Baixar currículo
         </a>

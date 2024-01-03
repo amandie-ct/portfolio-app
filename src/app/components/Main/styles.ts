@@ -6,12 +6,5 @@ export const Main = styled.main`
   flex-direction: column;
   width: 100%;
   padding: 0 ${({ theme }) => theme.spacings.xxlarge};
-
-  background: rgb(244, 118, 171);
-  background: linear-gradient(
-    90deg,
-    rgba(244, 118, 171, 1) 0%,
-    rgba(212, 167, 199, 1) 47%,
-    rgba(171, 213, 235, 1) 100%
-  );
+  background-color: ${({ theme }) => theme.colors.dark_gray};
 `

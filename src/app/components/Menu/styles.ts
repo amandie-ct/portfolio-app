@@ -5,32 +5,29 @@ export const Menu = styled.section`
   top: 0;
   position: fixed;
   z-index: 99;
-  background: ${({ theme }) => theme.colors.black};
+  background: ${({ theme }) => theme.colors.dark_gray};
   width: 100%;
   display: flex;
-  padding: 1.5rem 2rem;
-  box-shadow: ${({ theme }) => theme.shadow.box_shadow};
+  padding: 2.5rem 2rem;
 `
 
 export const Links = styled.section`
   display: flex;
   align-items: center;
-  justify-content: left;
-  width: 100%;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 1.6rem;
+  justify-content: space-around;
+  width: 40%;
+  font-size: 2.5rem;
   a {
+    color: ${({ theme }) => theme.colors.golden};
     text-decoration: none;
-    text-transform: uppercase;
     padding: 0 2rem;
-    font-weight: 600;
 
     &:link {
-      color: ${({ theme }) => theme.colors.faded_white2};
+      color: ${({ theme }) => theme.colors.golden};
     }
 
     &:visited {
-      color: ${({ theme }) => theme.colors.faded_white2};
+      color: ${({ theme }) => theme.colors.golden};
     }
 
     &:hover {
