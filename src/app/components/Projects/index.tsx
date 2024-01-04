@@ -1,3 +1,4 @@
+import ProjectCard from '../ProjectCard'
 import * as Styled from './styles'
 import { faCode, faEye } from '@fortawesome/free-solid-svg-icons'
 
@@ -14,7 +15,7 @@ const Projects = () => {
     <Styled.Container id="projects">
       <Styled.ContainerTitle>Projetos</Styled.ContainerTitle>
       <Styled.ProjectsContainer>
-        <Styled.ProjectCard>
+        {/* <Styled.ProjectCard>
           <Styled.ProjectImgContainer>
             <Styled.ProjectImgOverlay>
               <a
@@ -103,6 +104,7 @@ const Projects = () => {
         </Styled.ProjectCard>
 
         <Styled.ProjectCard>
+      
           <Styled.ProjectImgContainer>
             <Styled.ProjectImgOverlay>
               <a
@@ -144,7 +146,9 @@ const Projects = () => {
               ))}
             </Styled.TagsContainer>
           </Styled.TagsSection>
-        </Styled.ProjectCard>
+        </Styled.ProjectCard> */}
+
+        <ProjectCard />
       </Styled.ProjectsContainer>
     </Styled.Container>
   )

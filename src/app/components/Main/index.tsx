@@ -1,5 +1,5 @@
 import About from '../About'
-import Contact from '../Contact'
+import Footer from '../Footer'
 import LandingPage from '../LandingPage'
 import Projects from '../Projects'
 import * as Styled from './styles'
@@ -10,7 +10,7 @@ const Main = () => {
       <LandingPage />
       <Projects />
       <About />
-      <Contact />
+      <Footer />
     </Styled.Main>
   )
 }

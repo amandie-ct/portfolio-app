@@ -12,4 +12,5 @@ export const Button = styled.div`
   justify-content: center;
   max-width: 20%;
   min-width: fit-content;
+  cursor: pointer;
 `

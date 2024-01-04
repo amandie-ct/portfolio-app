@@ -2,28 +2,24 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styled-components'
 
-export const Container = styled.section`
+export const Footer = styled.section`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  height: 30vh;
   width: 100%;
-  height: 80vh;
 
   h1 {
-    color: ${({ theme }) => theme.colors.faded_white1};
-    font-size: ${({ theme }) => theme.font.sizes.xlarge};
-    text-transform: uppercase;
+    font-size: ${({ theme }) => theme.font.sizes.large};
+    color: ${({ theme }) => theme.colors.golden};
   }
 `
 
-export const ContactsList = styled.section`
-  padding-top: ${({ theme }) => theme.spacings.large};
+export const FooterLinks = styled.div`
+  padding-top: ${({ theme }) => theme.spacings.xxlarge};
   width: 100%;
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   align-items: center;
-
   a {
     display: flex;
     flex-direction: column;
@@ -44,7 +40,7 @@ export const ContactsList = styled.section`
     p {
       font-size: ${({ theme }) => theme.font.sizes.small};
       padding: ${({ theme }) => theme.spacings.xsmall} 0;
-      color: ${({ theme }) => theme.colors.black};
+      color: ${({ theme }) => theme.colors.light_gray};
 
     }
 
@@ -55,12 +51,13 @@ export const ContactsList = styled.section`
     }
   }
 `
+
 export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-  font-size: ${({ theme }) => theme.font.sizes.huge};
-  color: ${({ theme }) => theme.colors.faded_white3};
+  font-size: ${({ theme }) => theme.font.sizes.xlarge};
+  color: ${({ theme }) => theme.colors.faded_golden};
 
   &:hover {
-    color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.golden};
     transition: ${({ theme }) => theme.transition.fast};
   }
 `

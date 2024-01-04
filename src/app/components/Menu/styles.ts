@@ -17,22 +17,27 @@ export const Links = styled.section`
   justify-content: space-around;
   width: 40%;
   font-size: 2.5rem;
+
   a {
-    color: ${({ theme }) => theme.colors.golden};
+    color: ${({ theme }) => theme.colors.light_gray};
     text-decoration: none;
-    padding: 0 2rem;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+    font-weight: 400;
 
     &:link {
-      color: ${({ theme }) => theme.colors.golden};
+      color: ${({ theme }) => theme.colors.light_gray};
     }
 
     &:visited {
-      color: ${({ theme }) => theme.colors.golden};
+      color: ${({ theme }) => theme.colors.light_gray};
     }
 
     &:hover {
-      color: rgba(255, 255, 255, 0.9);
+      border-bottom: 2px solid ${({ theme }) => theme.colors.golden};
+      color: ${({ theme }) => theme.colors.white};
       cursor: pointer;
+      font-weight: 500;
     }
   }
 `

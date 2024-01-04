@@ -1,21 +1,21 @@
-import * as Styled from './styles'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import * as Styled from './styles'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-const Contact = () => {
+const Footer = () => {
   const phoneNumber: number = 5584996982723
 
   return (
-    <Styled.Container id="contact">
+    <Styled.Footer id="contact">
       <h1>Contato</h1>
-      <Styled.ContactsList>
+      <Styled.FooterLinks>
         <a
           href={`https://api.whatsapp.com/send?phone=${phoneNumber}`}
           target="_blank"
           rel="noreferrer"
         >
           <Styled.StyledFontAwesomeIcon icon={faPhone} />
-          <p>(84)99698-2723</p>
+          <p>Telefone</p>
         </a>
         <a
           href="https://www.linkedin.com/in/carvalhot-amanda"
@@ -23,7 +23,7 @@ const Contact = () => {
           rel="noreferrer"
         >
           <Styled.StyledFontAwesomeIcon icon={faLinkedin} />
-          <p>@carvalhot-amanda</p>
+          <p>Linkedin</p>
         </a>
         <a
           href="https://github.com/amandie-ct"
@@ -31,15 +31,15 @@ const Contact = () => {
           rel="noreferrer"
         >
           <Styled.StyledFontAwesomeIcon icon={faGithub} />
-          <p>@amandie-ct</p>
+          <p>Github</p>
         </a>
         <a href="#">
           <Styled.StyledFontAwesomeIcon icon={faEnvelope} />
-          <p>carvalhotp.amanda@gmail.com</p>
+          <p>E-mail</p>
         </a>
-      </Styled.ContactsList>
-    </Styled.Container>
+      </Styled.FooterLinks>
+    </Styled.Footer>
   )
 }
 
-export default Contact
+export default Footer

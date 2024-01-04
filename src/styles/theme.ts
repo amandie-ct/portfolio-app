@@ -26,14 +26,10 @@ const Theme = {
   colors: {
     white: '#FFFFFF',
     golden: '#d8a47a',
-    dark_gray: '#181717',
-    faded_white1: 'rgba(255, 255, 255, 0.8)',
-    faded_white2: 'rgba(255, 255, 255, 0.6)',
-    faded_white3: 'rgba(255, 255, 255, 0.4)',
-    grayish_blue: 'rgb(130, 169, 191)',
-    grayish_pink: 'rgb(219,107,154)',
-    grayish_purple: 'rgba(158, 135, 183, 0.7)',
-    black: 'rgb(38, 38, 38)'
+    faded_golden: 'rgba(216, 164, 122, 0.7)',
+    light_gray: '#bbbbbb',
+    medium_gray: '#697484',
+    dark_gray: '#181717'
   },
   spacings: {
     xxsmall: '0.8rem',
