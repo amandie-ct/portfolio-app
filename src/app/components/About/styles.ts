@@ -8,7 +8,7 @@ export const Container = styled.section`
   height: 100vh;
 `
 export const ContainerTitle = styled.h1`
-  font-size: ${({ theme }) => theme.font.sizes.large};
   margin-bottom: ${({ theme }) => theme.spacings.xlarge};
-  text-transform: uppercase;
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.font.sizes.huge};
 `

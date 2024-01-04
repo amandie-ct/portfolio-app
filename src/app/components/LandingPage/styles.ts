@@ -27,12 +27,13 @@ export const Identification = styled.section`
     font-size: 7rem;
     font-weight: 400;
     color: ${({ theme }) => theme.colors.white};
-    margin-bottom: ${({ theme }) => theme.spacings.large};
+    margin-bottom: ${({ theme }) => theme.spacings.huge};
   }
   h2 {
     font-size: 6rem;
     color: ${({ theme }) => theme.colors.golden};
     font-weight: 600;
+    margin-bottom: ${({ theme }) => theme.spacings.xlarge};
   }
 `
 

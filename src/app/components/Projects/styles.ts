@@ -12,8 +12,8 @@ export const Container = styled.section`
 `
 export const ContainerTitle = styled.h1`
   margin-bottom: ${({ theme }) => theme.spacings.xlarge};
-  text-transform: uppercase;
-  color: ${({ theme }) => theme.colors.faded_white1};
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.font.sizes.huge};
 `
 
 export const ProjectsContainer = styled.section`

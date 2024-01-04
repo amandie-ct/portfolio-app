@@ -1,6 +1,5 @@
 import ProjectCard from '../ProjectCard'
 import * as Styled from './styles'
-import { faCode, faEye } from '@fortawesome/free-solid-svg-icons'
 
 const Projects = () => {
   const technologies = [

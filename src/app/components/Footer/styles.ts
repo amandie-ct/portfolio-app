@@ -7,11 +7,12 @@ export const Footer = styled.section`
   flex-direction: column;
   height: 30vh;
   width: 100%;
+`
 
-  h1 {
-    font-size: ${({ theme }) => theme.font.sizes.large};
-    color: ${({ theme }) => theme.colors.golden};
-  }
+export const ContainerTitle = styled.h1`
+  margin-bottom: ${({ theme }) => theme.spacings.xlarge};
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.font.sizes.huge};
 `
 
 export const FooterLinks = styled.div`

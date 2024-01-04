@@ -38,7 +38,8 @@ const Theme = {
     medium: '3.2rem',
     large: '4.0rem',
     xlarge: '5rem',
-    xxlarge: '6rem'
+    xxlarge: '6rem',
+    huge: '8rem'
   },
   layers: {
     base: 10,

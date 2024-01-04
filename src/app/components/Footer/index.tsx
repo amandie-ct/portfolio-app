@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <Styled.Footer id="contact">
-      <h1>Contato</h1>
+      <Styled.ContainerTitle>Contato</Styled.ContainerTitle>
       <Styled.FooterLinks>
         <a
           href={`https://api.whatsapp.com/send?phone=${phoneNumber}`}
