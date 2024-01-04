@@ -19,6 +19,8 @@ export const FooterLinks = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+
   a {
     display: flex;
     align-items: center;
@@ -27,15 +29,14 @@ export const FooterLinks = styled.div`
     text-decoration: none;
     margin-right: ${({ theme }) => theme.spacings.large};
     
-    &:hover {
-      cursor: pointer;
-    }
-
-
     p {
       font-size: ${({ theme }) => theme.font.sizes.medium};
-      padding: ${({ theme }) => theme.spacings.xsmall} 0;
       color: ${({ theme }) => theme.colors.light_gray};
+      padding-bottom: ${({ theme }) => theme.spacings.xxsmall};
+
+      &:hover {
+        cursor: pointer;
+        border-bottom: 2px solid ${({ theme }) => theme.colors.golden};
 
     }
 
@@ -43,16 +44,14 @@ export const FooterLinks = styled.div`
       translateY(-1.2rem);
       transition: 0.2s;
     }
+      
+    }
   }
 `
 
 export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
   font-size: ${({ theme }) => theme.font.sizes.large};
   margin-right: ${({ theme }) => theme.spacings.xxsmall};
-  color: rgba(255, 255, 255, 0.5);
-
-  &:hover {
-    color: ${({ theme }) => theme.colors.golden};
-    transition: ${({ theme }) => theme.transition.fast};
-  }
+  color: ${({ theme }) => theme.colors.golden};
+  padding-bottom: ${({ theme }) => theme.spacings.xxsmall};
 `

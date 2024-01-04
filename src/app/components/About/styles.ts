@@ -24,6 +24,10 @@ export const ProfileImg = styled.img`
   width: 350px;
   height: auto;
   margin-right: ${({ theme }) => theme.spacings.huge};
+
+  &:hover {
+    transform: rotatey(180deg);
+  }
 `
 
 export const InfoContainer = styled.section`
@@ -46,4 +50,26 @@ export const InfoContent = styled.p`
   width: 100%;
   text-align: justify;
   line-height: 5rem;
+`
+
+export const MoreInfoContainer = styled.div`
+  margin-top: ${({ theme }) => theme.spacings.large};
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+`
+
+export const MoreInfoLinks = styled.a`
+  color: ${({ theme }) => theme.colors.light_gray};
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  box-sizing: border-box;
+  font-weight: 400;
+
+  &:hover {
+    border-bottom: 2px solid ${({ theme }) => theme.colors.golden};
+    color: ${({ theme }) => theme.colors.white};
+    cursor: pointer;
+    font-weight: 500;
+  }
 `

@@ -24,12 +24,14 @@ const About = () => {
             busco oportunidade de integrar um time incrível para que possamos
             somar e crescer juntos.{' '}
           </Styled.InfoContent>
-          <div>
-            <p>Tecnologias</p>
-            <p>Educação</p>
-            <p>Experiência profissional</p>
-            <p>Idiomas</p>
-          </div>
+          <Styled.MoreInfoContainer>
+            <Styled.MoreInfoLinks>Tecnologias</Styled.MoreInfoLinks>
+            <Styled.MoreInfoLinks>Educação</Styled.MoreInfoLinks>
+            <Styled.MoreInfoLinks>
+              Experiência profissional
+            </Styled.MoreInfoLinks>
+            <Styled.MoreInfoLinks>Idiomas</Styled.MoreInfoLinks>
+          </Styled.MoreInfoContainer>
         </Styled.InfoContainer>
       </Styled.InfoImgContainer>
     </Styled.Container>
