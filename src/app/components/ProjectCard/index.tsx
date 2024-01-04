@@ -24,12 +24,20 @@ const ProjectCard = () => {
         </Styled.CardTechsContainer>
 
         <Styled.CardLinks>
-          <a>
+          <a
+            href="https://pokedex-beta-sable.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>Visualizar projeto</span>
             &nbsp;
             <Styled.CardLinksIcon icon={faEye} />
           </a>
-          <a>
+          <a
+            href="https://github.com/amandie-ct/next-pokedex"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>Visualizar código</span>&nbsp;
             <Styled.CardLinksIcon icon={faCode} />
           </a>

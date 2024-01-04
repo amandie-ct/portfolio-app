@@ -12,3 +12,32 @@ export const ContainerTitle = styled.h1`
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.font.sizes.huge};
 `
+
+export const InfoImgContainer = styled.section`
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+`
+
+export const ProfileImg = styled.img`
+  width: 350px;
+  height: auto;
+  margin-right: ${({ theme }) => theme.spacings.huge};
+`
+
+export const InfoContainer = styled.section`
+  width: 50%;
+  height: 100%;
+  diplay: flex;
+  flex-direction: column;
+
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.font.sizes.medium};
+`
+
+export const InfoTitle = styled.h2`
+  color: ${({ theme }) => theme.colors.golden};
+  font-size: ${({ theme }) => theme.font.sizes.large};
+  line-height: 9rem;
+`

@@ -52,6 +52,7 @@ export const CardLinks = styled.div`
     align-items: center;
     cursor: pointer;
     margin-right: ${({ theme }) => theme.spacings.small};
+    text-decoration: none;
     &:last-child {
       margin-right: 0;
     }

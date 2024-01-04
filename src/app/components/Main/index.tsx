@@ -8,8 +8,8 @@ const Main = () => {
   return (
     <Styled.Main>
       <LandingPage />
-      <Projects />
       <About />
+      <Projects />
       <Footer />
     </Styled.Main>
   )
