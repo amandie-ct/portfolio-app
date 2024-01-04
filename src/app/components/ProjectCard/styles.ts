@@ -28,6 +28,12 @@ export const CardInfo = styled.div`
     font-size: ${({ theme }) => theme.font.sizes.small};
     text-align: justify;
   }
+
+  a {
+    color: ${({ theme }) => theme.colors.golden};
+    font-weight: bold;
+    text-decoration: none;
+  }
 `
 
 export const CardImg = styled.img`

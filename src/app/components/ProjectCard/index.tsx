@@ -8,12 +8,14 @@ const ProjectCard = () => {
       <Styled.CardInfo>
         <h2>Pokedex</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos
-          praesentium, ullam consectetur corrupti facilis provident pariatur!
-          Commodi quidem at animi accusantium asperiores nulla, recusandae
-          reprehenderit eum repellat minima nobis minus? Fuga culpa impedit quo
-          numquam dolore quae nihil voluptas eligendi, quidem nemo debitis
-          expedita ipsa odio amet.
+          Esse projeto consome os dados da API Rest{' '}
+          <a href="https://pokeapi.co/" target="_blank" rel="noopener">
+            PokeApi
+          </a>{' '}
+          para exibir uma lista de pokemons, que pode ser filtrada por tipo de
+          pokemon ao clicar em um dos botões de categoria no início da tela. Ao
+          clicar em um card de pokemon especifico, o usuário é redirecionado a
+          uma tela que exibe mais detalhes sobre o pokemon selecionado.
         </p>
 
         <Styled.CardTechsContainer>
