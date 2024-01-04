@@ -13,12 +13,14 @@ const ProjectCard = () => {
           Commodi quidem at animi accusantium asperiores nulla, recusandae
           reprehenderit eum repellat minima nobis minus? Fuga culpa impedit quo
           numquam dolore quae nihil voluptas eligendi, quidem nemo debitis
-          expedita ipsa odio amet. Nemo non neque ipsam optio aspernatur
-          voluptatem vitae iusto? Beatae, sit nisi. Consequuntur?
+          expedita ipsa odio amet.
         </p>
 
         <Styled.CardTechsContainer>
           <Styled.CardTechButton>TypeScript</Styled.CardTechButton>
+          <Styled.CardTechButton>NextJs</Styled.CardTechButton>
+          <Styled.CardTechButton>Redux-toolkit</Styled.CardTechButton>
+          <Styled.CardTechButton>Jest</Styled.CardTechButton>
         </Styled.CardTechsContainer>
 
         <Styled.CardLinks>

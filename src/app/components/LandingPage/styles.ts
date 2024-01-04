@@ -5,39 +5,41 @@ export const LandingPage = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+`
+export const IdentificationContainer = styled.section`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 `
 
 export const Identification = styled.section`
   display: flex;
+  width: 100%;
+  align-items: flex-end;
+  margin-right: ${({ theme }) => theme.spacings.large};
   flex-direction: column;
   h1 {
-    font-size: 8rem;
-    color: ${({ theme }) => theme.colors.black};
-    font-weight: 200;
-    margin-top: -1.8rem;
+    font-size: 7rem;
+    font-weight: 400;
+    color: ${({ theme }) => theme.colors.white};
+    margin-bottom: ${({ theme }) => theme.spacings.large};
   }
   h2 {
-    font-size: 8rem;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.5);
-    text-transform: uppercase;
+    font-size: 6rem;
+    color: ${({ theme }) => theme.colors.golden};
     font-weight: 600;
   }
 `
 
-export const IdentificationContainer = styled.section`
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-`
-
-export const Profile = styled.section`
+export const LandingPageImg = styled.section`
   img {
     object-fit: fill;
-    width: 350px;
+    width: 80%;
     height: auto;
   }
 `

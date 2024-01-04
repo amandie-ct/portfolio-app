@@ -13,9 +13,9 @@ const LandingPage = () => {
           <Button text="Baixar currículo" />
         </Styled.Identification>
 
-        <Styled.Profile>
-          <img src="profile3.png" />
-        </Styled.Profile>
+        <Styled.LandingPageImg>
+          <img src="lpimg.jpg" />
+        </Styled.LandingPageImg>
       </Styled.IdentificationContainer>
     </Styled.LandingPage>
   )
