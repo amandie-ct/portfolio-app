@@ -27,7 +27,7 @@ html, body, #__next {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #262626;
+  background: #d8a47a;
   border-radius: 6px;
 }
 `

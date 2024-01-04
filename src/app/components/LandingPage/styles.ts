@@ -36,7 +36,7 @@ export const Identification = styled.section`
     font-size: 9rem;
     color: ${({ theme }) => theme.colors.golden};
     font-weight: 600;
-    margin-bottom: ${({ theme }) => theme.spacings.xlarge};
+    margin-bottom: ${({ theme }) => theme.spacings.medium};
   }
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-backdrop-filter: blur(5px);

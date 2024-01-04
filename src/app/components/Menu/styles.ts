@@ -8,7 +8,7 @@ export const Menu = styled.section`
   background: ${({ theme }) => theme.colors.dark_gray};
   width: 100%;
   display: flex;
-  padding: 2.5rem 2rem;
+  padding: 1.5rem 2rem;
 `
 
 export const Links = styled.section`
@@ -21,7 +21,7 @@ export const Links = styled.section`
   a {
     color: ${({ theme }) => theme.colors.light_gray};
     text-decoration: none;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0;
     box-sizing: border-box;
     font-weight: 400;
 
