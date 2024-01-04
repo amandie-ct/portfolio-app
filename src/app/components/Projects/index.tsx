@@ -2,14 +2,15 @@ import ProjectCard from '../ProjectCard'
 import * as Styled from './styles'
 
 const Projects = () => {
-  const technologies = [
-    'NextJS',
-    'TypeScript',
-    'React',
-    'Redux-Toolkit',
-    'React Testing Library',
-    'Styled-Components'
-  ]
+  // const technologies = [
+  //   'NextJS',
+  //   'TypeScript',
+  //   'React',
+  //   'Redux-Toolkit',
+  //   'React Testing Library',
+  //   'Styled-Components'
+  // ]
+
   return (
     <Styled.Container id="projects">
       <Styled.ContainerTitle>Projetos</Styled.ContainerTitle>
