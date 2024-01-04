@@ -37,6 +37,7 @@ export const FooterLinks = styled.div`
       &:hover {
         cursor: pointer;
         border-bottom: 2px solid ${({ theme }) => theme.colors.golden};
+        color: ${({ theme }) => theme.colors.white};
 
     }
 

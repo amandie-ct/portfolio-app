@@ -34,7 +34,7 @@ export const CardImg = styled.img`
   width: 50%;
   height: 100%;
   cursor: pointer;
-  object-fit: contain;
+  object-fit: cover;
   &:hover {
     transform: scale(1.05, 1.05);
     transition: 0.5s ease;

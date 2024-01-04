@@ -2,6 +2,7 @@
 import styled from 'styled-components'
 
 export const Button = styled.div`
+  text-decoration: none;
   border: 2px solid ${({ theme }) => theme.colors.golden};
   padding: ${({ theme }) => theme.spacings.xsmall}
     ${({ theme }) => theme.spacings.small};
