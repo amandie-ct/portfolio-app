@@ -27,7 +27,7 @@ export const ProfileImg = styled.img`
 `
 
 export const InfoContainer = styled.section`
-  width: 80%;
+  width: 70%;
   height: 100%;
   diplay: flex;
   flex-direction: column;
