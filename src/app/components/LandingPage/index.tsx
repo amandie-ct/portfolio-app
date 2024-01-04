@@ -10,14 +10,12 @@ const LandingPage = () => {
     <Styled.LandingPage>
       <Menu />
       <Styled.IdentificationContainer>
-        <Styled.Identification>
-          <h2>Desenvolvedora frontend</h2>
-          <h1>Amanda Carvalho</h1>
-          <Button text="Baixar currículo" link={downloadCV} />
-        </Styled.Identification>
-
         <Styled.LandingPageImg>
-          <img src="lpimg.jpg" />
+          <Styled.Identification>
+            <h2>Desenvolvedora frontend</h2>
+            <h1>Amanda Carvalho</h1>
+            <Button text="Baixar currículo" link={downloadCV} />
+          </Styled.Identification>
         </Styled.LandingPageImg>
       </Styled.IdentificationContainer>
     </Styled.LandingPage>

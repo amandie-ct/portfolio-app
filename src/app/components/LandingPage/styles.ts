@@ -7,7 +7,7 @@ export const LandingPage = styled.section`
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 `
 export const IdentificationContainer = styled.section`
   display: flex;
@@ -15,32 +15,39 @@ export const IdentificationContainer = styled.section`
   align-items: center;
   width: 100%;
   height: 100%;
+  margin: ${({ theme }) => theme.spacings.huge} 0;
 `
 
 export const Identification = styled.section`
   display: flex;
+  position: relative;
   width: 100%;
-  align-items: flex-end;
-  margin-right: ${({ theme }) => theme.spacings.large};
+  height: 100%;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   h1 {
-    font-size: 7rem;
+    font-size: 9rem;
     font-weight: 400;
     color: ${({ theme }) => theme.colors.white};
     margin-bottom: ${({ theme }) => theme.spacings.huge};
   }
   h2 {
-    font-size: 6rem;
+    font-size: 9rem;
     color: ${({ theme }) => theme.colors.golden};
     font-weight: 600;
     margin-bottom: ${({ theme }) => theme.spacings.xlarge};
   }
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 `
 
 export const LandingPageImg = styled.section`
-  img {
-    object-fit: fill;
-    width: 80%;
-    height: auto;
-  }
+  background-image: url('lpimg.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
 `
