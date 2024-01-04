@@ -9,13 +9,14 @@ const ProjectCard = () => {
         <h2>Pokedex</h2>
         <p>
           Esse projeto consome os dados da API Rest{' '}
-          <a href="https://pokeapi.co/" target="_blank" rel="noopener">
+          <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">
             PokeApi
           </a>{' '}
           para exibir uma lista de pokemons, que pode ser filtrada por tipo de
           pokemon ao clicar em um dos botões de categoria no início da tela. Ao
           clicar em um card de pokemon especifico, o usuário é redirecionado a
-          uma tela que exibe mais detalhes sobre o pokemon selecionado.
+          uma tela que exibe mais detalhes sobre o pokemon selecionado. (Em
+          andamento)
         </p>
 
         <Styled.CardTechsContainer>
