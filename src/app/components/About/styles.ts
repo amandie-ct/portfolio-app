@@ -17,7 +17,7 @@ export const InfoImgContainer = styled.section`
   display: flex;
   width: 100%;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 `
 
 export const ProfileImg = styled.img`
@@ -27,7 +27,7 @@ export const ProfileImg = styled.img`
 `
 
 export const InfoContainer = styled.section`
-  width: 50%;
+  width: 80%;
   height: 100%;
   diplay: flex;
   flex-direction: column;
@@ -40,4 +40,10 @@ export const InfoTitle = styled.h2`
   color: ${({ theme }) => theme.colors.golden};
   font-size: ${({ theme }) => theme.font.sizes.large};
   line-height: 9rem;
+`
+
+export const InfoContent = styled.p`
+  width: 100%;
+  text-align: justify;
+  line-height: 5rem;
 `
