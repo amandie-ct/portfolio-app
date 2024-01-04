@@ -48,7 +48,6 @@ export const FooterLinks = styled.div`
     &:active {
       translateY(-1.2rem);
       transition: 0.2s;
-      color: ${({ theme }) => theme.colors.faded_white1};
     }
   }
 `
