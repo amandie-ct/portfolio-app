@@ -24,9 +24,6 @@ export const ProfileImg = styled.img`
   width: 350px;
   height: auto;
   margin-right: ${({ theme }) => theme.spacings.huge};
-
-  &:hover {
-    transform: rotatey(180deg);
   }
 `
 
