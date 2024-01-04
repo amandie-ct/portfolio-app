@@ -44,53 +44,6 @@ export const ProjectImgContainer = styled.section`
   overflow: hidden;
 `
 
-export const ProjectImgOverlay = styled.section`
-  border-radius: ${({ theme }) => theme.border.regular_radius};
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(31, 24, 39, 0.5);
-  display: flex;
-  margin: auto;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  align-items: center;
-  justify-content: center;
-
-  &:hover {
-    opacity: 1;
-  }
-
-  a {
-    text-decoration: none;
-    color: ${({ theme }) => theme.colors.white};
-
-    &:link {
-      color: ${({ theme }) => theme.colors.faded_white2};
-    }
-
-    &:visited {
-      color: ${({ theme }) => theme.colors.faded_white1};
-    }
-
-    &:hover {
-      color: ${({ theme }) => theme.colors.white};
-    }
-  }
-`
-
-export const IconStyles = styled(FontAwesomeIcon)`
-  font-size: ${({ theme }) => theme.font.sizes.huge};
-  color: ${({ theme }) => theme.colors.faded_white3};
-  margin-right: 30px;
-
-  &:hover {
-    color: ${({ theme }) => theme.colors.faded_white2};
-  }
-`
-
 export const ProjectImg = styled.img`
   border-radius: ${({ theme }) => theme.border.regular_radius};
   height: 100%;
@@ -100,7 +53,6 @@ export const ProjectImg = styled.img`
 `
 
 export const Title = styled.h1`
-  color: ${({ theme }) => theme.colors.black};
   font-size: ${({ theme }) => theme.font.sizes.large};
   margin-top: ${({ theme }) => theme.spacings.xsmall};
   font-weight: 400;
@@ -116,19 +68,4 @@ export const TagsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-`
-export const Tags = styled.div`
-  color: ${({ theme }) => theme.colors.white};
-  font-size: ${({ theme }) => theme.font.sizes.small};
-  background-color: ${({ theme }) => theme.colors.grayish_blue};
-  padding: ${({ theme }) => theme.spacings.xxsmall}
-    ${({ theme }) => theme.spacings.xsmall};
-  box-shadow: ${({ theme }) => theme.shadow.box_shadow};
-  margin-bottom: ${({ theme }) => theme.spacings.xsmall};
-  margin-right: ${({ theme }) => theme.spacings.xsmall};
-  border-radius: ${({ theme }) => theme.border.small_radius};
-
-  &:nth-of-type(2n) {
-    background-color: ${({ theme }) => theme.colors.grayish_pink};
-  }
 `
