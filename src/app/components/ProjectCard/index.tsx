@@ -4,7 +4,7 @@ import * as Styled from './styles'
 const ProjectCard = () => {
   return (
     <Styled.CardContainer>
-      <Styled.CardImg src="pokedex.png" />
+      <Styled.CardImg src="pokedex.png" alt="printscren do projeto" />
       <Styled.CardInfo>
         <h2>Pokedex</h2>
         <p>

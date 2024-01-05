@@ -15,7 +15,6 @@ export const IdentificationContainer = styled.section`
   align-items: center;
   width: 100%;
   height: 100%;
-  margin: ${({ theme }) => theme.spacings.huge} 0;
 `
 
 export const Identification = styled.section`

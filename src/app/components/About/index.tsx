@@ -18,7 +18,7 @@ const About = () => {
     <Styled.Container>
       <Styled.ContainerTitle>Sobre</Styled.ContainerTitle>
       <Styled.InfoImgContainer>
-        <Styled.ProfileImg src="profile3.png" />
+        <Styled.ProfileImg src="profile3.png" alt="foto de perfil" />
         <Styled.InfoContainer>
           <Styled.InfoTitle>Sobre mim</Styled.InfoTitle>
           <Styled.InfoContent>
