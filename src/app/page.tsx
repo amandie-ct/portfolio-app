@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Portfólio | Amanda Carvalho</title>
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <Main />
     </>

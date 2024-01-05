@@ -5,7 +5,12 @@ import tabData from '@/app/data/tabData'
 
 const About = () => {
   const [tab, setTab] = useState('skills')
+
   const [isPending, startTransition] = useTransition()
+
+  if (isPending) {
+    return <p>Pending...</p>
+  }
 
   const handleTabChange = (id: string) => {
     startTransition(() => {
