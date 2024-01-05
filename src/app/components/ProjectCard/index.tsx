@@ -27,8 +27,8 @@ const ProjectCard = ({
         <p>{description}</p>
 
         <Styled.CardTechsContainer>
-          {tags.map((tag) => (
-            <Styled.CardTechButton>{tag}</Styled.CardTechButton>
+          {tags.map((tag, index) => (
+            <Styled.CardTechButton key={index}>{tag}</Styled.CardTechButton>
           ))}
         </Styled.CardTechsContainer>
 

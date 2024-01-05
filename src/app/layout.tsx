@@ -10,6 +10,11 @@ const poppins = Poppins({
   subsets: ['latin']
 })
 
+export const metadata = {
+  title: 'Portfólio | Amanda Carvalho',
+  description: ''
+}
+
 export default function RootLayout({
   children
 }: {

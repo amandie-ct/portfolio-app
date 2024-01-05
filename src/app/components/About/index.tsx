@@ -57,7 +57,7 @@ const About = () => {
             </TabButton>
           </Styled.MoreInfoContainer>
           <Styled.TabContent>
-            {/* @ts-ignore:next-line */}
+            {/* @ts-expect-error:next-line */}
             {tabData.find((t) => t.id === tab).content}{' '}
           </Styled.TabContent>
         </Styled.InfoContainer>
