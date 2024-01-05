@@ -1,6 +1,19 @@
+'use client'
+import { useState, useTransition } from 'react'
 import * as Styled from './styles'
+import TabButton from '../TabButton'
+import tabData from '@/app/data/tabData'
 
 const About = () => {
+  const [tab, setTab] = useState('skills')
+  const [isPending, startTransition] = useTransition()
+
+  const handleTabChange = (id: string) => {
+    startTransition(() => {
+      setTab(id)
+    })
+  }
+
   return (
     <Styled.Container>
       <Styled.ContainerTitle>Sobre</Styled.ContainerTitle>
@@ -18,20 +31,36 @@ const About = () => {
             profissão não poderia ser diferente - busco excelência no
             desenvolvimento de código, em lidar com pessoas e em gerar valor
             para negócios. Anos de experiência com tecnologia me mostraram que é
-            uma área na qual juntos chegamos mais longe e somos mais fortes, e
-            em virtude disso, busco contribuir e trocar conhecimentos e
-            experiências com outros desenvolvedores constantemente. No momento,
-            busco oportunidade de integrar um time incrível para que possamos
-            somar e crescer juntos.{' '}
+            uma área na qual juntos chegamos mais longe, e em virtude disso,
+            estou constantemente contribuindo e trocando conhecimentos e
+            experiências com outros desenvolvedores.{' '}
           </Styled.InfoContent>
           <Styled.MoreInfoContainer>
-            <Styled.MoreInfoLinks>Tecnologias</Styled.MoreInfoLinks>
-            <Styled.MoreInfoLinks>Educação</Styled.MoreInfoLinks>
-            <Styled.MoreInfoLinks>
-              Experiência profissional
-            </Styled.MoreInfoLinks>
-            <Styled.MoreInfoLinks>Idiomas</Styled.MoreInfoLinks>
+            <TabButton
+              selectTab={() => handleTabChange('skills')}
+              active={tab === 'skills'}
+            >
+              Tecnologias
+            </TabButton>
+
+            <TabButton
+              selectTab={() => handleTabChange('education')}
+              active={tab === 'education'}
+            >
+              Educação
+            </TabButton>
+
+            <TabButton
+              selectTab={() => handleTabChange('languages')}
+              active={tab === 'languages'}
+            >
+              Idiomas
+            </TabButton>
           </Styled.MoreInfoContainer>
+          <Styled.TabContent>
+            {/* @ts-ignore:next-line */}
+            {tabData.find((t) => t.id === tab).content}{' '}
+          </Styled.TabContent>
         </Styled.InfoContainer>
       </Styled.InfoImgContainer>
     </Styled.Container>

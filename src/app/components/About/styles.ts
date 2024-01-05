@@ -52,21 +52,19 @@ export const InfoContent = styled.p`
 export const MoreInfoContainer = styled.div`
   margin-top: ${({ theme }) => theme.spacings.large};
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 50%;
 `
 
-export const MoreInfoLinks = styled.a`
-  color: ${({ theme }) => theme.colors.light_gray};
-  text-decoration: none;
-  padding-bottom: 0.5rem;
-  box-sizing: border-box;
-  font-weight: 400;
+export const TabContent = styled.div`
+  padding-top: ${({ theme }) => theme.spacings.medium};
+  line-height: 5rem;
+  display: flex;
 
-  &:hover {
-    border-bottom: 2px solid ${({ theme }) => theme.colors.golden};
-    color: ${({ theme }) => theme.colors.white};
-    cursor: pointer;
-    font-weight: 500;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: ${({ theme }) => theme.spacings.huge};
   }
 `

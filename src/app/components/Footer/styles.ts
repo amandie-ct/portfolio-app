@@ -5,13 +5,15 @@ import styled from 'styled-components'
 export const Footer = styled.section`
   display: flex;
   flex-direction: column;
-  height: 30vh;
+  height: 20vh;
   width: 100%;
+  padding: 0 ${({ theme }) => theme.spacings.medium};
 `
 
 export const ContainerTitle = styled.h1`
-  color: ${({ theme }) => theme.colors.golden};
-  font-size: ${({ theme }) => theme.font.sizes.large};
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.font.sizes.xlarge};
+  margin-top: ${({ theme }) => theme.spacings.medium};
 `
 
 export const FooterLinks = styled.div`
