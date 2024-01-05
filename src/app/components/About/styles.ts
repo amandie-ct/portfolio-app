@@ -67,4 +67,8 @@ export const TabContent = styled.div`
     justify-content: space-between;
     margin-right: ${({ theme }) => theme.spacings.huge};
   }
+
+  li {
+    list-style-type: none;
+  }
 `

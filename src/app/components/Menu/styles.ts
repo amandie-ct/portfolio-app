@@ -8,7 +8,9 @@ export const Menu = styled.section`
   background: ${({ theme }) => theme.colors.dark_gray};
   width: 100%;
   display: flex;
-  padding: 1.5rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
 `
 
 export const Links = styled.section`
