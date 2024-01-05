@@ -4,6 +4,7 @@ import { Providers } from './providers'
 import StyledComponentsRegistry from '@/lib/registry'
 import { ThemeProvider } from 'styled-components'
 import Theme from '@/styles/theme'
+import Head from 'next/head'
 
 const poppins = Poppins({
   weight: ['200', '400', '500', '600', '800'],
@@ -16,14 +17,21 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={poppins.className}>
-        <StyledComponentsRegistry>
-          <Providers>
-            <ThemeProvider theme={Theme}>{children}</ThemeProvider>
-          </Providers>
-        </StyledComponentsRegistry>
-      </body>
-    </html>
+    <>
+      <Head>
+        <title>Portfólio | Amanda Carvalho</title>
+        <link rel="icon" href="favicon.ico" />
+      </Head>
+
+      <html lang="en">
+        <body className={poppins.className}>
+          <StyledComponentsRegistry>
+            <ThemeProvider theme={Theme}>
+              <Providers>{children}</Providers>
+            </ThemeProvider>
+          </StyledComponentsRegistry>
+        </body>
+      </html>
+    </>
   )
 }

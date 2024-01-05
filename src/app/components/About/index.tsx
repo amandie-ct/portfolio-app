@@ -1,4 +1,5 @@
-import { useState, useTransition } from 'react'
+'use client'
+import { useState } from 'react'
 import * as Styled from './styles'
 import TabButton from '../TabButton'
 import tabData from '@/app/data/tabData'
@@ -6,16 +7,8 @@ import tabData from '@/app/data/tabData'
 const About = () => {
   const [tab, setTab] = useState('skills')
 
-  const [isPending, startTransition] = useTransition()
-
-  if (isPending) {
-    return <p>Pending...</p>
-  }
-
   const handleTabChange = (id: string) => {
-    startTransition(() => {
-      setTab(id)
-    })
+    setTab(id)
   }
 
   return (
