@@ -8,6 +8,7 @@ export const CardContainer = styled.section`
   background-color: ${({ theme }) => theme.colors.white};
   height: 60vh;
   display: flex;
+  margin-bottom: ${({ theme }) => theme.spacings.huge};
 `
 
 export const CardInfo = styled.div`
@@ -92,6 +93,7 @@ export const CardTechButton = styled.div`
   min-width: fit-content;
   max-width: 15%;
   margin-right: ${({ theme }) => theme.spacings.xsmall};
+  margin-bottom: ${({ theme }) => theme.spacings.xsmall};
 
   &:hover {
     cursor: pointer;

@@ -1,4 +1,3 @@
-'use client'
 import { useState, useTransition } from 'react'
 import * as Styled from './styles'
 import TabButton from '../TabButton'
