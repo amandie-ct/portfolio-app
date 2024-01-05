@@ -6,11 +6,14 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   height: 100vh;
+  padding-left: ${({ theme }) => theme.spacings.large};
+  margin: ${({ theme }) => theme.spacings.huge} 0;
 `
 export const ContainerTitle = styled.h1`
-  margin-bottom: ${({ theme }) => theme.spacings.xlarge};
+  margin-bottom: ${({ theme }) => theme.spacings.medium};
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.font.sizes.huge};
+  font-weight: 500;
 `
 
 export const InfoImgContainer = styled.section`

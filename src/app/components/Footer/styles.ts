@@ -5,15 +5,16 @@ import styled from 'styled-components'
 export const Footer = styled.section`
   display: flex;
   flex-direction: column;
-  height: 20vh;
+  height: fit-content;
   width: 100%;
   padding: 0 ${({ theme }) => theme.spacings.medium};
 `
 
 export const ContainerTitle = styled.h1`
-  color: ${({ theme }) => theme.colors.white};
-  font-size: ${({ theme }) => theme.font.sizes.xlarge};
   margin-top: ${({ theme }) => theme.spacings.medium};
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.font.sizes.huge};
+  font-weight: 500;
 `
 
 export const FooterLinks = styled.div`
@@ -22,6 +23,7 @@ export const FooterLinks = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-bottom: ${({ theme }) => theme.spacings.xlarge};
 
   a {
     display: flex;

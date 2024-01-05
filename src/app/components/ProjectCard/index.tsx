@@ -1,46 +1,44 @@
 import { faCode, faEye } from '@fortawesome/free-solid-svg-icons'
 import * as Styled from './styles'
 
-const ProjectCard = () => {
+interface IProjectCardProps {
+  title: string
+  id?: string
+  img: string
+  description: string
+  project_link: string
+  repository_link: string
+  tags: string[]
+}
+
+const ProjectCard = ({
+  title,
+  img,
+  description,
+  project_link,
+  repository_link,
+  tags
+}: IProjectCardProps) => {
   return (
     <Styled.CardContainer>
-      <Styled.CardImg src="pokedex.png" alt="printscren do projeto" />
+      <Styled.CardImg src={`${img}.png`} alt="printscren do projeto" />
       <Styled.CardInfo>
-        <h2>Pokedex</h2>
-        <p>
-          Esse projeto consome os dados da API Rest{' '}
-          <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">
-            PokeApi
-          </a>{' '}
-          para exibir uma lista de pokemons, que pode ser filtrada por tipo de
-          pokemon ao clicar em um dos botões de categoria no início da tela. Ao
-          clicar em um card de pokemon especifico, o usuário é redirecionado a
-          uma tela que exibe mais detalhes sobre o pokemon selecionado. (Em
-          andamento)
-        </p>
+        <h2>{title}</h2>
+        <p>{description}</p>
 
         <Styled.CardTechsContainer>
-          <Styled.CardTechButton>TypeScript</Styled.CardTechButton>
-          <Styled.CardTechButton>NextJs</Styled.CardTechButton>
-          <Styled.CardTechButton>Redux-toolkit</Styled.CardTechButton>
-          <Styled.CardTechButton>Jest</Styled.CardTechButton>
+          {tags.map((tag) => (
+            <Styled.CardTechButton>{tag}</Styled.CardTechButton>
+          ))}
         </Styled.CardTechsContainer>
 
         <Styled.CardLinks>
-          <a
-            href="https://pokedex-beta-sable.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={`${project_link}`} target="_blank" rel="noreferrer">
             <span>Visualizar projeto</span>
             &nbsp;
             <Styled.CardLinksIcon icon={faEye} />
           </a>
-          <a
-            href="https://github.com/amandie-ct/next-pokedex"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={`${repository_link}`} target="_blank" rel="noreferrer">
             <span>Visualizar código</span>&nbsp;
             <Styled.CardLinksIcon icon={faCode} />
           </a>
