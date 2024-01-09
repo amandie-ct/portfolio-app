@@ -1,11 +1,7 @@
 import styled, { css } from 'styled-components';
 import { ITabButtonProps } from '.';
 
-export interface TabButtonStyleProps {
-  active?: boolean;
-}
-
-export const TabButton = styled.div<ITabButtonProps>`
+export const TabButton = styled.div<Pick<ITabButtonProps, 'active'>>`
   ${($props) =>
     $props.active &&
     css`
