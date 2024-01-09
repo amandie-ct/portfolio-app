@@ -9,7 +9,7 @@ export interface ITabButtonProps {
 
 const TabButton = ({ children, selectTab, active }: ITabButtonProps) => {
   return (
-    <Styled.TabButton onClick={selectTab} active={active} >
+    <Styled.TabButton onClick={selectTab} active={active.toString()} >
       <p>{children}</p>
     </Styled.TabButton>
   )

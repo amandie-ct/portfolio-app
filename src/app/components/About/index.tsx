@@ -12,7 +12,7 @@ const About = () => {
   }
 
   return (
-    <Styled.Container>
+    <Styled.Container id="about">
       <Styled.ContainerTitle>Sobre</Styled.ContainerTitle>
       <Styled.InfoImgContainer>
         <Styled.ProfileImg src="profile3.png" alt="foto de perfil" />

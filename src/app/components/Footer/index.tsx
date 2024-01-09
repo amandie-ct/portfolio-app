@@ -33,7 +33,7 @@ const Footer = () => {
           <Styled.StyledFontAwesomeIcon icon={faGithub} />
           <p>Github</p>
         </a>
-        <a href="#">
+        <a href="mailto:carvalhotp.amanda@gmail.com" target="_blank">
           <Styled.StyledFontAwesomeIcon icon={faEnvelope} />
           <p>E-mail</p>
         </a>
