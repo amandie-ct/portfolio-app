@@ -20,7 +20,7 @@ export default function RootLayout({
     <>
       <Head>
         <title>Portfólio | Amanda Carvalho</title>
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.ico" sizes="16x16" />
       </Head>
 
       <html lang="en">

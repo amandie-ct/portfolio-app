@@ -1,15 +1,15 @@
 import { ReactNode } from 'react'
 import * as Styled from './styles'
 
-interface ITabButtonProps {
+export interface ITabButtonProps {
   children: ReactNode
   selectTab: () => void
   active: boolean
 }
 
-const TabButton = ({ children, selectTab }: ITabButtonProps) => {
+const TabButton = ({ children, selectTab, active }: ITabButtonProps) => {
   return (
-    <Styled.TabButton onClick={selectTab}>
+    <Styled.TabButton onClick={selectTab} active={active} >
       <p>{children}</p>
     </Styled.TabButton>
   )

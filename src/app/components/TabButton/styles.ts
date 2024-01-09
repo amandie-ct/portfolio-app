@@ -1,18 +1,18 @@
 'use client'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import { ITabButtonProps } from '.'
 
-export const TabButton = styled.div`
-  color: ${({ theme }) => theme.colors.light_gray};
-  text-decoration: none;
+export interface TabButtonStyleProps {
+  active?: boolean
+}
+
+export const TabButton = styled.div<TabButtonStyleProps>`
+  border-bottom: ${(props) => (props.active? '2px solid #d8a47a' : 'none')};
+  color: ${(props) => (props.active ? '#fff' : '#bbbbbb')};
+  font-weight: ${(props) => (props.active ? '500' : '400')};
+  margin-right: 4rem;
   padding-bottom: 0.5rem;
-  box-sizing: border-box;
-  font-weight: 400;
-  margin-right: ${({ theme }) => theme.spacings.large};
-
-  &:hover {
-    border-bottom: 2px solid ${({ theme }) => theme.colors.golden};
-    color: ${({ theme }) => theme.colors.white};
-    cursor: pointer;
-    font-weight: 500;
-  }
+  text-decoration: none;
+  cursor: pointer;
 `
+
