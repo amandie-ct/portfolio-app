@@ -3,7 +3,7 @@ import * as Styled from './styles'
 
 export interface ITabButtonProps {
   children: ReactNode
-  selectTab: () => void
+  selectTab?: () => void
   active: boolean
 }
 
