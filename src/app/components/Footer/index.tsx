@@ -24,7 +24,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           <Styled.StyledFontAwesomeIcon icon={faLinkedin} />
-          <p>Linkedin</p>
+          <p>LinkedIn</p>
         </a>
         <a
           href="https://github.com/amandie-ct"
