@@ -8,6 +8,7 @@ const Footer = () => {
   return (
     <Styled.Footer id="contact">
       <Styled.ContainerTitle>Conecte-se</Styled.ContainerTitle>
+      <Styled.FooterLinksContainer>
       <Styled.FooterLinks>
         <a
           href={`https://api.whatsapp.com/send?phone=${phoneNumber}`}
@@ -38,6 +39,9 @@ const Footer = () => {
           <p>E-mail</p>
         </a>
       </Styled.FooterLinks>
+
+      <Styled.PortfolioLink>Para visualizar o código desse projeto, &nbsp;<a href="https://github.com/amandie-ct/portfolio-app" rel="noreferrer">clique aqui</a></Styled.PortfolioLink>
+      </Styled.FooterLinksContainer>
     </Styled.Footer>
   )
 }

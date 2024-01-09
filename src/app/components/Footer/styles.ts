@@ -17,6 +17,12 @@ export const ContainerTitle = styled.h1`
   font-weight: 500;
 `
 
+export const FooterLinksContainer = styled.div`
+ display: flex;
+ width: 100%;
+ align-items: center;
+`
+
 export const FooterLinks = styled.div`
   padding-top: ${({ theme }) => theme.spacings.medium};
   width: 100%;
@@ -59,4 +65,17 @@ export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
   margin-right: ${({ theme }) => theme.spacings.xxsmall};
   color: ${({ theme }) => theme.colors.golden};
   padding-bottom: ${({ theme }) => theme.spacings.xxsmall};
+`
+
+export const PortfolioLink = styled(FooterLinks) `
+  font-size: ${({ theme }) => theme.font.sizes.medium};
+  color: ${({ theme }) => theme.colors.light_gray};
+  justify-content: flex-end;
+
+  a {
+    &:hover {
+      color: ${({ theme }) => theme.colors.golden};
+    }
+}
+
 `
