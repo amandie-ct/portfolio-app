@@ -40,7 +40,7 @@ const Footer = () => {
         </a>
       </Styled.FooterLinks>
 
-      <Styled.PortfolioLink>Para visualizar o código desse projeto, &nbsp;<a href="https://github.com/amandie-ct/portfolio-app" rel="noreferrer">clique aqui</a></Styled.PortfolioLink>
+      <Styled.PortfolioLink>Para visualizar o código desse projeto, &nbsp;<a href="https://github.com/amandie-ct/portfolio-app" target="_blank" rel="noreferrer">clique aqui</a></Styled.PortfolioLink>
       </Styled.FooterLinksContainer>
     </Styled.Footer>
   )
