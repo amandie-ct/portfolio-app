@@ -12,27 +12,24 @@ const LandingPage = () => {
         <Styled.LandingPageImg>
           <Styled.Identification>
             <motion.div
-              animate={{ x: 150 }}
               initial={{ x: 0, opacity: 0 }}
               transition={{ delay: 0.1, duration: 2.5 }}
-              whileInView={{ opacity: 1 }}
+              whileInView={{ opacity: 1, x: 150 }}
             >
               <h2>Desenvolvedora frontend</h2>
             </motion.div>
             <motion.div
-              animate={{ x: 200 }}
               initial={{ x: 0, opacity: 0 }}
               transition={{ delay: 0.1, duration: 2.5 }}
-              whileInView={{ opacity: 1 }}
+              whileInView={{ opacity: 1, x: 200 }}
             >
               <h1>Amanda Carvalho</h1>
             </motion.div>
 
             <motion.div
-              animate={{ y: 50 }}
-              initial={{ y: 0, opacity: 0 }}
+              initial={{ y: -50, opacity: 0 }}
               transition={{ delay: 0.1, duration: 2.5 }}
-              whileInView={{ opacity: 1 }}
+              whileInView={{ opacity: 1, y: 0 }}
             >
               <Button
                 text="Baixar currículo"
