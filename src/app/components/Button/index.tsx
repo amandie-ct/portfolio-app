@@ -3,6 +3,8 @@ import * as Styled from './styles'
 interface IButtonProps {
   text: string
   link?: string
+  target?: string
+  rel?: string
 }
 
 const Button = ({ text, link }: IButtonProps) => {

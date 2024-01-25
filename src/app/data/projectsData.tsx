@@ -18,15 +18,15 @@ const projectsData = [
       'Husky'
     ]
   },
-  {
-    title: 'Previsão do Tempo',
-    id: 'weather_app',
-    img: 'weather_app',
-    description: '',
-    project_link: '',
-    repository_link: '',
-    tags: ['JavaScript', 'HTML', 'CSS']
-  }
+  // {
+  //   title: 'Previsão do Tempo',
+  //   id: 'weather_app',
+  //   img: 'weather_app',
+  //   description: '',
+  //   project_link: '',
+  //   repository_link: '',
+  //   tags: ['JavaScript', 'HTML', 'CSS']
+  // }
 ]
 
 export default projectsData
