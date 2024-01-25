@@ -9,7 +9,7 @@ import * as Styled from './styles'
 // either Static metadata
 
 export const metadata: Metadata = {
-  title: 'Portfolio || Amanda Carvalho',
+  title: 'Portfolio || Amanda Carvalho'
 }
 
 const Main = () => {

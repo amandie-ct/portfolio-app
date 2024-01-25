@@ -2,7 +2,6 @@ import { resumeLink } from '@/app/data/links'
 import * as Styled from './styles'
 
 const Menu = () => {
-
   return (
     <Styled.Menu>
       <Styled.Links>

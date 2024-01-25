@@ -17,7 +17,7 @@ const projectsData = [
       'React Testing Library',
       'Husky'
     ]
-  },
+  }
   // {
   //   title: 'Previsão do Tempo',
   //   id: 'weather_app',

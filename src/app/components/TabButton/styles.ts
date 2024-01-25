@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components';
-import { ITabButtonProps } from '.';
+import styled, { css } from 'styled-components'
+import { ITabButtonProps } from '.'
 
 export const TabButton = styled.div<Pick<ITabButtonProps, 'active'>>`
   ${($props) =>
@@ -14,4 +14,4 @@ export const TabButton = styled.div<Pick<ITabButtonProps, 'active'>>`
   padding-bottom: 0.5rem;
   text-decoration: none;
   cursor: pointer;
-`;
+`
