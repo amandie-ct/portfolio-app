@@ -2,6 +2,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
+  padding-top: ${({ theme }) => theme.spacings.large};
   padding-left: ${({ theme }) => theme.spacings.large};
   display: flex;
   flex-direction: column;
@@ -9,6 +10,7 @@ export const Container = styled.section`
   font-size: ${({ theme }) => theme.font.sizes.large};
   width: 100%;
   min-height: 100vh;
+  height: 100vh;
 `
 export const ContainerTitle = styled.h1`
   margin-bottom: ${({ theme }) => theme.spacings.xlarge};

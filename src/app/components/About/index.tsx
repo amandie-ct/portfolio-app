@@ -15,36 +15,32 @@ const About = () => {
   return (
     <Styled.Container id="about">
       <motion.div
-        animate={{ y: 0 }}
         initial={{ y: -80, opacity: 0 }}
-        transition={{ delay: 0.1, duration: 2.5 }}
-        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, y: 0 }}
       >
         <Styled.ContainerTitle>Sobre</Styled.ContainerTitle>
       </motion.div>
       <Styled.InfoImgContainer>
         <motion.div
-          animate={{ x: 0 }}
           initial={{ x: -100, opacity: 0.5 }}
-          transition={{ duration: 3 }}
-          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          whileInView={{ opacity: 1, x: 0 }}
         >
           <Styled.ProfileImg src="profile3.png" alt="foto de perfil" />
         </motion.div>
         <Styled.InfoContainer>
           <motion.div
-            animate={{ y: 0 }}
             initial={{ y: -80, opacity: 0 }}
-            transition={{ delay: 0.1, duration: 2.5 }}
-            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            whileInView={{ opacity: 1, y: 0 }}
           >
             <Styled.InfoTitle>Sobre mim</Styled.InfoTitle>
           </motion.div>
           <motion.div
-            animate={{ x: 0 }}
             initial={{ x: 100, opacity: 0.5 }}
-            transition={{ duration: 3 }}
-            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            whileInView={{ opacity: 1, x: 0 }}
           >
             <Styled.InfoContent>
               Sou uma desenvolvedora frontend proativa e autodidata, com
@@ -63,10 +59,9 @@ const About = () => {
           </motion.div>
 
           <motion.div
-            animate={{ y: 0 }}
             initial={{ y: 100, opacity: 0.5 }}
-            transition={{ duration: 3 }}
-            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            whileInView={{ opacity: 1, y: 0 }}
           >
             <Styled.MoreInfoContainer>
               <TabButton
@@ -93,10 +88,9 @@ const About = () => {
           </motion.div>
 
           <motion.div
-            animate={{ y: 0 }}
             initial={{ y: 100, opacity: 0.5 }}
-            transition={{ duration: 3 }}
-            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            whileInView={{ opacity: 1, y: 0 }}
           >
             <Styled.TabContent>
               {/* @ts-expect-error:next-line */}

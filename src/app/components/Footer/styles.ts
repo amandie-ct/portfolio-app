@@ -5,7 +5,8 @@ import styled from 'styled-components'
 export const Footer = styled.section`
   display: flex;
   flex-direction: column;
-  height: fit-content;
+  min-height: fit-content;
+  height: 30vh;
   width: 100%;
   padding: 0 ${({ theme }) => theme.spacings.medium};
 `
