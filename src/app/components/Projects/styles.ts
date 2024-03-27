@@ -10,7 +10,6 @@ export const Container = styled.section`
   font-size: ${({ theme }) => theme.font.sizes.large};
   width: 100%;
   min-height: 100vh;
-  height: 100vh;
 `
 export const ContainerTitle = styled.h1`
   margin-bottom: ${({ theme }) => theme.spacings.xlarge};

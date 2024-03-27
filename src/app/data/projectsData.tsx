@@ -4,7 +4,7 @@ const projectsData = [
     id: 'pokedex',
     img: 'pokedex',
     description:
-      'Esse projeto consome os dados da API Rest PokeApi para exibir uma lista de pokemons, que pode ser filtrada por tipo de pokemon ao clicar em um dos botões de categoria - nesse caso, uma requisição é feita para um segundo endpoint passando o nome da categoria como parâmetro. Ao clicar em um dos mini-cards de pokemon da tela principal, o id do pokemon é passado como parâmetro na requisição e o usuário é redirecionado para uma tela que exibe mais detalhes sobre o pokemon selecionado. Os estados são armazenados usando a store do Redux-toolkit (versão mais moderna do Redux) e as requisições são feitas utilizando uma combinação da API createAsyncThunk e a biblioteca Axios. O projeto utiliza a versão mais moderna do NextJS, TypeScript, React e Styled-components para estilização. (em andamento)',
+      'Esse projeto consome os dados da API Rest PokeApi para exibir uma lista de pokemons, que pode ser filtrada por tipo de pokemon ao clicar em um dos botões de categoria - nesse caso, uma requisição é feita para um segundo endpoint passando o nome da categoria como parâmetro. Ao clicar em um dos mini-cards de pokemon da tela principal, o id do pokemon é passado como parâmetro na requisição e o usuário é redirecionado para uma tela que exibe mais detalhes sobre o pokemon selecionado. Os estados são armazenados usando a store do Redux-toolkit (versão mais moderna do Redux) e as requisições são feitas utilizando uma combinação da API createAsyncThunk e a biblioteca Axios. O projeto utiliza a versão mais moderna do NextJS, TypeScript, React e Styled-components para estilização.',
     project_link: 'https://pokedex-beta-sable.vercel.app/',
     repository_link: 'https://github.com/amandie-ct/next-pokedex',
     tags: [
@@ -19,11 +19,11 @@ const projectsData = [
     ]
   },
   {
-    title: 'Codie teste técnico',
+    title: 'Centro Pokémon teste técnico',
     id: 'codie',
     img: 'codie',
     description:
-      'Esse projeto simula um “centro de recuperação Pokémon” utilizando React 18 e NextJS 14. O usuário pode navegar até uma tela de agendamento de consulta, onde há um formulário para que ele preencha informações sobre seus pokémons - seu nome e sobrenome em inputs de texto, uma lista de regiões que é renderizada em um elemento select a partir do endpoint /regions da PokeApi, e uma lista de cidades que é renderizada de acordo com a região escolhida, passando o nome da região como parâmetro. Além disso, o usuário deve escolher uma data que será recebida como parâmetro numa requisição POST para que seja renderizada uma lista de horários disponíveis nessa data. O usuário deve escolher seus pokémons (com limite de 6) e utilizar um botão para adicionar mais selects de pokémons na página a medida que for necessário. Finalmente, é feito um cálculo do valor a partir do número de pokémons: $70 por cada pokémon + uma taxa geracional de 3% multiplicada pelo número de geração mais alto (com teto de 30%). Ao clicar no botão para concluir o agendamento, o usuário é redirecionado para uma página resumindo a transação, e se ocorrerem erros, para uma página de erros. As requisições são feitas utilizando React-query, o formulário é feito utilizando React-hook-form e a validação das informações do formulário utiliza a biblioteca Yup. (em andamento)',
+      'Esse projeto simula um “centro de recuperação Pokémon”. No agendamento de consulta, há um formulário para preencher informações do usuário - nome, sobrenome, uma lista de regiões que é renderizada a partir do endpoint /regions da PokeApi, e uma lista de cidades renderizada de acordo com a região escolhida. O usuário deve escolher uma data, que será recebida como parâmetro numa requisição POST para que seja renderizada uma lista de horários disponíveis nessa data. O usuário deve escolher seus pokémons e utilizar um botão para adicionar mais selects de pokémons na página a medida que for necessário. Finalmente, é feito um cálculo do valor da consulta. Ao clicar no botão para concluir o agendamento, o usuário é redirecionado para uma página resumindo a transação, ou caso haja erros, para uma página de erro. As requisições são feitas utilizando React-query, o formulário é feito utilizando React-hook-form e a validação das informações utiliza a biblioteca Yup. (em andamento)',
     project_link: 'https://github.com/amandie-ct/codie-challenge',
     repository_link: 'https://github.com/amandie-ct/codie-challenge',
     tags: [
@@ -36,6 +36,21 @@ const projectsData = [
       'React Testing Library',
       'Yup',
       'Axios'
+    ]
+  },
+  {
+    title: 'Blog teste técnico (Angular)',
+    id: 'waycarbon',
+    img: 'waycarbon',
+    description:
+      'Esse projeto simula um blog utilizando Angular 17. Um post principal é renderizado a partir do endpoint /post, e comentários são renderizados a partir do endpoint /comments. O usuário pode adicionar ou responder um comentário, que será enviado em um POST request e exibido na página aninhado ou na raiz adequadamente. Ao clicar em um usuário, é exibido um modal com os seguintes detalhes: nome, data em que o usuário se tornou membro, título dos posts e uma prévia do conteúdo de cada um. (em andamento)',
+    project_link: 'https://github.com/amandie-ct/waycarbon-project',
+    repository_link: 'https://github.com/amandie-ct/waycarbon-project',
+    tags: [
+      'Angular 17',
+      'Angular CLI',
+      'CSS',
+      'Jasmine'
     ]
   }
 ]
