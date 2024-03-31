@@ -24,7 +24,7 @@ const projectsData = [
     img: 'codie',
     description:
       'Esse projeto simula um “centro de recuperação Pokémon”. No agendamento de consulta, há um formulário para preencher informações do usuário - nome, sobrenome, uma lista de regiões que é renderizada a partir do endpoint /regions da PokeApi, e uma lista de cidades renderizada de acordo com a região escolhida. O usuário deve escolher uma data, que será recebida como parâmetro numa requisição POST para que seja renderizada uma lista de horários disponíveis nessa data. O usuário deve escolher seus pokémons e utilizar um botão para adicionar mais selects de pokémons na página a medida que for necessário. Finalmente, é feito um cálculo do valor da consulta. Ao clicar no botão para concluir o agendamento, o usuário é redirecionado para uma página resumindo a transação, ou caso haja erros, para uma página de erro. As requisições são feitas utilizando React-query, o formulário é feito utilizando React-hook-form e a validação das informações utiliza a biblioteca Yup. (em andamento)',
-    project_link: 'https://github.com/amandie-ct/codie-challenge',
+    project_link: 'https://portfolio-amanda-nine.vercel.app/',
     repository_link: 'https://github.com/amandie-ct/codie-challenge',
     tags: [
       'NextJs',
@@ -46,12 +46,7 @@ const projectsData = [
       'Esse projeto simula um blog utilizando Angular 17. Um post principal é renderizado a partir do endpoint /post, e comentários são renderizados a partir do endpoint /comments. O usuário pode adicionar ou responder um comentário, que será enviado em um POST request e exibido na página aninhado ou na raiz adequadamente. Ao clicar em um usuário, é exibido um modal com os seguintes detalhes: nome, data em que o usuário se tornou membro, título dos posts e uma prévia do conteúdo de cada um. (em andamento)',
     project_link: 'https://github.com/amandie-ct/waycarbon-project',
     repository_link: 'https://github.com/amandie-ct/waycarbon-project',
-    tags: [
-      'Angular 17',
-      'Angular CLI',
-      'CSS',
-      'Jasmine'
-    ]
+    tags: ['Angular 17', 'Angular CLI', 'CSS', 'Jasmine']
   }
 ]
 
